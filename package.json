@@ -1,0 +1,26 @@
+{
+  "name": "gjf-streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media assignment NPM project",
+  "homepage": "https://github.com/gfeldman120/gjf-streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/gfeldman120/gjf-streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfeldman120/gjf-streaming-media-assignment.git"
+  },
+  "author": "GJF",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  }
+}
