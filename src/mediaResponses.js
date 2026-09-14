@@ -29,7 +29,7 @@ const getFile = (request, response, filename, contentType) => {
             start = end - 1;
         }
 
-        const chunksize = (end - start) - 1;
+        const chunksize = (end - start) + 1;
 
         response.writeHead(206, {
             'Content-Range': `bytes ${start}-${end}/${total}`,
